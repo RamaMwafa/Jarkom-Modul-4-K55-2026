@@ -339,4 +339,18 @@ Validasi dilakukan dengan ping antar client dari cabang yang berbeda, dimulai da
 
 ---
 
+## GNS3 - VLSM
+
+Berkut topologinya
+
+<img width="1948" height="1364" alt="topologi_subnet_blob_v3" src="https://github.com/user-attachments/assets/9d21cf48-4c18-4d10-8ad1-30e31551aab5" />
+
+Berdasarkan analisis dari topologi tersebut, terdapat 25 subnet yang perlu dihitung menggunakan metode VLSM. Total IP yang dibutuhkan adalah 2814.
+
+Cara menghitung dengan metode VLSM
+1. Tuliskan subnet yang ada beserta kebutuhan IP-nya
+2. Urutkan dari yang terbesar - terkecil
+3. Tentukan prefix ip di setiap subnetnya
+4. Hitung Network ID, Broadcast, subnetmask, dan rentang sesuai dengan prefix ip-nya
+
 
